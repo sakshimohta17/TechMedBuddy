@@ -2,15 +2,21 @@
 
 The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between a query sequence and database records. It helps researchers identify unknown 
 genes, classify organisms, and infer evolutionary relationships. 
+<br>
 BLASTn: Compares a nucleotide query (DNA/RNA) to a sequence database. 
+<br>
 BLASTp: Compares a protein (amino acid query) to a protein database. 
+<br>
 BLASTx: Translates a nucleotide query in six reading frames and compares it to a protein database. 
+<br>
 tBLASTn: Compares a protein query to a nucleotide database translated in six reading frames. 
+<br>
 
 This script provides a comprehensive tool for performing various types of sequence similarity searches (BLAST) directly from a Google Colab notebook. It leverages the Biopython library to interact with NCBI's BLAST web services.
+<br>
 
 The overall workflow is:
-
+<br>
 Setup: Installs Biopython and imports necessary modules.
 <br>
 BLAST Functionality: Defines a reusable function (run_blast) to abstract away the details of sending a query to NCBI, retrieving results, and parsing the complex XML output into Python objects.
