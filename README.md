@@ -27,4 +27,5 @@ Sequence Extraction: Reads the uploaded FASTA file to extract the primary DNA se
 <br>
 Multi-faceted BLAST: Executes five different types of BLAST searches (blastn, blastx, blastp, tblastn, tblastx) using the input DNA sequence (and its protein translation where appropriate) against the nr (non-redundant) NCBI database. This covers comparisons between DNA and DNA, translated DNA and protein, protein and protein, and various combinations of translated nucleotide databases.
 <br>
+<br>
 It automates a full suite of common BLAST analyses on a user-provided sequence, preparing the results for further analysis in the notebook.
